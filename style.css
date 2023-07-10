@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgba(220, 220, 220, 0.363);
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    gap: 50px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.aside_container{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0px auto 30px ;
+}
+
+.first_aside_div{
+    background-image: linear-gradient(to left, rgb(5, 5, 90), indigo);
+}
+
+.first_aside_content {
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.first_aside_content_1{
+    color: white;
+    margin-left: 20px;
+
+}
+
+.second_aside_div{
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 20px;
+    align-items: center;  
+    padding: 10px;
+}
+
+.features{
+    display: flex;
+    background-color: rgb(44, 188, 255);
+    width: 120px;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.features:first-child{
+    background-color: blue;
+    width: 50px;   
+}
+
+.features:nth-child(2){
+    width: 50px;  
+}
+
+.features:nth-child(3){
+    width: 50px;    
+}
+
+.features:nth-child(4){
+    width: 120px;
+}
+
+.features:nth-child(5){
+    width: 50px;
+}
+
+.features:nth-child(6){
+    width: 80px;
+  
+}
+
+.third_aside_div{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    
+}
+
+.roadmap h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.roadmap ul{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.roadmap_2 {
+    margin-top: 30px;
+    
+}
+
+.roadmap_2 p{
+    margin-top: 20px;
+   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.first_main_row{
+    border-radius: 5px;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-weight: 300;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.inner_first_main_row{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.inner{
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+.inner_2{
+    margin-right: 50px;
+    
+}
+
+.inner_img{
+    filter: opacity(1) drop-shadow(0 0 0 rgb(255, 255, 255));
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.sorted_by{
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.purple{
+    align-items: center;
+    background-color: purple;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.other_main_rows{
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 13vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.h5{
+    background-color: rgba(200, 247, 248, 0.658);
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    padding: 10px;
+    
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 20px;
+   
+}
+
+.title_p{
+    font-size: 1em;
+    margin-top: -5px;
+    
+}
+
+.title h2{
+    font-size: 1.2em;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 300;
+    width: 15%;
+    height: 35px;
+    padding: 5px;
+    background-color: rgba(200, 247, 248, 0.658);
+    
+}
+
+.subtitle{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
